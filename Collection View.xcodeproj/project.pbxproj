@@ -17,6 +17,8 @@
 		9A3CD0812999FD9600659B63 /* Collection_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CD0802999FD9600659B63 /* Collection_ViewTests.swift */; };
 		9A3CD08B2999FD9600659B63 /* Collection_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CD08A2999FD9600659B63 /* Collection_ViewUITests.swift */; };
 		9A3CD08D2999FD9600659B63 /* Collection_ViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CD08C2999FD9600659B63 /* Collection_ViewUITestsLaunchTests.swift */; };
+		9A3CD09A2999FEDC00659B63 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CD0992999FEDC00659B63 /* CollectionViewCell.swift */; };
+		9A3CD09C299A12A500659B63 /* ImgDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CD09B299A12A500659B63 /* ImgDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9A3CD0862999FD9600659B63 /* Collection ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collection ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3CD08A2999FD9600659B63 /* Collection_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_ViewUITests.swift; sourceTree = "<group>"; };
 		9A3CD08C2999FD9600659B63 /* Collection_ViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_ViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A3CD0992999FEDC00659B63 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9A3CD09B299A12A500659B63 /* ImgDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				9A3CD0662999FD9200659B63 /* AppDelegate.swift */,
 				9A3CD0682999FD9200659B63 /* SceneDelegate.swift */,
 				9A3CD06A2999FD9200659B63 /* ViewController.swift */,
+				9A3CD0992999FEDC00659B63 /* CollectionViewCell.swift */,
+				9A3CD09B299A12A500659B63 /* ImgDetailViewController.swift */,
 				9A3CD06C2999FD9200659B63 /* Main.storyboard */,
 				9A3CD0722999FD9500659B63 /* Assets.xcassets */,
 				9A3CD0742999FD9500659B63 /* LaunchScreen.storyboard */,
@@ -261,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3CD09A2999FEDC00659B63 /* CollectionViewCell.swift in Sources */,
 				9A3CD06B2999FD9200659B63 /* ViewController.swift in Sources */,
 				9A3CD0672999FD9200659B63 /* AppDelegate.swift in Sources */,
+				9A3CD09C299A12A500659B63 /* ImgDetailViewController.swift in Sources */,
 				9A3CD0712999FD9200659B63 /* Collection_View.xcdatamodeld in Sources */,
 				9A3CD0692999FD9200659B63 /* SceneDelegate.swift in Sources */,
 			);
